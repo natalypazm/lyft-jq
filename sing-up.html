@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/sing-up.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/jquery.js"></script>
+	
+</head>
+<body onload="init()">
+<div class="container-fluid cuerpo">
+	<a href="index.html"><img id="back" class="img-responsive pull-left" width="30px" style="margin-top:15px;" src="back.png"></a>
+		<h3 style="margin-right:10%">Sign Up</h3>
+			<p>Join now for free ride credit</p>
+	<hr>
+	<div class="form-group">
+		<div class="input-group">
+		 	<div class="input-group-btn bs-dropdown-to-select-group">
+	     			<a type="button" class="btn btn-default dropdown-toggle as-is bs-dropdown-to-select" id="country-name" href="paises.html"><img id="flagTwo" style="height:10px; width=10px;"  src="image/pe.png"></a>
+	     			<button type="button" class="btn btn-default dropdown-toggle as-is bs-dropdown-to-select"><span id="codePais">+51</span></button>
+	     	</div>
+	    		<input id="number" class="form-control" placeholder="11234567" type="text" name="number" required value="" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
+	    	</div>
+	</div>
+<br><br>
+	<p class="text-center">We'll send a text to verify your phone </p>
+	<a class="next" style="display:block" id="nextDatos">Next</a>
+</div>
+</div>
+	
+</body>
+<script src=js/jquery.js></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/sing-up.js"></script>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lyft</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/icomoon.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/mapa.css" rel="stylesheet">
+	<link href="css/queries.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fonts/icon/style.css">
+</head>
+<body onload="init()">
+	<div class="container-fluid">
+	<div class="row">
+		<div id="map">
+		</div>
+		<section class="map1">
+				<div class="lista">
+					<div class="dropup" style="display:block">
+    					<button id="menu1" class="btn btn-default dropdown-toggle fa fa-chevron-circle-up" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    						<p id="direccion" class="pull-left direccion"></p>
+    					</button>
+    				<ul id="listaCarros" class="dropdown-menu" style="width:95%" aria-labelledby="menu1">
+      					<li>
+      					<div class="col-xs-2 fa fa-car" style="padding-top:10px" aria-hidden="true"></div>
+      					<div class="col-xs-7"><strong>Line</strong><br><small>Shared</small></div><div class="col-xs-3" style="text-align:center">3<br>min</div></li>
+      					<li>
+      					<div class="col-xs-2 fa fa-car" style="padding-top:10px"></div>
+      					<div class="col-xs-7"><strong>Lyft</strong><br><small>4 seats</small>
+      					</div>
+      					<div class="col-xs-3" style="text-align:center">4<br>min</div>
+      					</li>
+      					<li>
+      					<div class="col-xs-2 fa fa-car" style="padding-top:10px" ></div>
+      					<div class="col-xs-7"><strong>Plus</strong><br><small>6 seats</small></div>
+      					<div class="col-xs-3" style="text-align:center">2<br>min</div>
+      					</li>
+      					<li>
+      					<div class="col-xs-2 fa fa-car" style="padding-top:10px"></div><div class="col-xs-7"><strong>Premier</strong><br><small>High-end</small></div>
+      					<div class="col-xs-3" style="text-align:center">3<br>min</div>
+      					</li>
+      					<br><br>
+    				</ul>
+    		</div>
+		</div>
+		</div>
+		<a id="set" class="btn btn-next" style="display:block">Set pickup</a>
+		</section>
+		<!--informacion de auto!-->
+	
+    <div id="info-auto" class="info-auto" style="display:none">
+	    <div class="row">
+			<div>
+				<center>
+		    		<div class=" col-xs-5" style="padding-top:10px;">
+		    			<img class="img-responsive pull-right" src="image/car2.jpg" style="height:30px">
+		    		</div>
+		    	</center>
+		    		<div class="col-xs-7"><p style="padding:15px 0" id="tipoElegido"><br><small>Fastride, 4 seats</small></p>
+		    		</div>
+		    </div>
+			<div class="col-xs-6"><img class="img-responsive" src="image/mastercard.png" style="height:20px">Personal<br><small>Payment</small> 
+		    </div>
+		    <div class="col-xs-6">$6-12 <br>Price estimate</div>
+		    <div class="col-xs-12 siguiente">
+		    	<ul>
+		    		<li><img src="image/circle.png" style="height:15px"><p id="midireccion" aria-hidden="true">Origen</p></li>
+		    	</ul>
+		    	<ul>
+		    		<img src="image/circle.png" style="height:15px"><p id="destino" aria-hidden="true">Destino</p>
+		    	</ul>
+		    </div>
+	    </div>
+   	</div>
+		</div>
+    </div>
+
+    <div id="botonRequest" class="text-center">
+            <button href="pago.html" id="request" class="btn btn-next" style="display: none">Request Lyft</button>
+        </div>
+		</div>
+	</div>
+	  <script type="text/javascript" src="js/jquery.js"></script>
+	  <script type="text/javascript" src="js/mapaf.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFDpaBtu6nIiWrJ8P9pEzQ3-Ndbr3cenY&callback=initMap"
+        async defer></script>
+</body>
+</html>

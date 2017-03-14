@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lyft</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="shortcut icon" href="image/favicon.png" type="image/png">-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+	<link href="css/icomoon.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/mapa.css" rel="stylesheet">
+	<link href="css/queries.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body onload="init()">
+	<div class="container-fluid">
+	<div class="row">
+		<div id="map"></div>
+		<div class="lista">
+			<div class="dropup">
+    			<button class="btn btn-default dropdown-toggle fa fa-chevron-circle-up" type="button" data-toggle="dropdown"> ONG PAZ PERÚ,Socabaya-Arequipa</button>
+    				<ul class="dropdown-menu" style="width:90%">
+      					<li><div class="col-xs-3 fa fa-car" style="padding-top:10px"></div><div class="col-xs-6"><a href="#">Line<br><small>Shared, 2 riders max</small></a></div><div class="col-xs-3" style="text-align:center">3<br>min</div></li>
+      					<li><div class="col-xs-3 fa fa-car" style="padding-top:10px"></div><div class="col-xs-6"><a href="#">Lyft<br><small>4 seats</small></a></div><div class="col-xs-3" style="text-align:center">4<br>min</div></li>
+      					<li><div class="col-xs-3 fa fa-car" style="padding-top:10px"></div><div class="col-xs-6"><a href="#">Plus<br><small>6 seats</small></a></div><div class="col-xs-3" style="text-align:center">2<br>min</div></li>
+      					<li><div class="col-xs-3 fa fa-car" style="padding-top:10px"></div><div class="col-xs-6"><a href="#">Premier<br><small>High-end, 4 seats</small></a></div><div class="col-xs-3" style="text-align:center">3<br>min</div></li>
+      					<br><br>
+    				</ul>
+    		</div>
+		</div>
+	</div>
+	<a class="bot" href="mapa2.html">Set pickup</a>	
+	</div>
+	</div>
+	  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASQn3ytwHIQNbbkdB4sUiYTcJElqglCSY&callback=initMap"
+        async defer></script>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/mapa.js"></script>
+</html>

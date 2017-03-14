@@ -1,0 +1,33 @@
+.cuerpo{
+	text-align:center;
+	margin: 30px auto;
+}
+p{
+	font-weight:bolder;
+}
+h3{
+	font-weight:700 !important;
+}
+.next{
+	background-color:#ff1dbc;
+	border:1px solid #ff1dbc;
+	padding:15px 40%;
+	bottom:-150px;
+	position:relative;
+	color:white;
+	font-size:25px;
+}
+
+input{
+	width:90% !important;
+	border-radius: 3px;
+	border:1px solid #CCC;
+	padding-left:30px;
+}
+label{
+	position:relative;
+	left:25px;
+}
+.check{
+	width: 10% !important;
+}

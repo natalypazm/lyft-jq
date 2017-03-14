@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.gm-style-mtc{
+	height:30px;
+}
+.gm-style-mtc span{
+	height:30px;
+}
+#map{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-repeat:no-repeat;
+}
+#set{
+	background-color:pink;
+	border:1px solid pink;
+	z-index:1;
+	position:absolute;
+	bottom:5px;
+	font-size:20px;
+	color:white;
+	width:90%;
+	height:30px;
+	border-radius:3px;
+	text-align:center;
+
+}
+.lista{
+	position:absolute;
+	z-index:1;
+	bottom:35px;
+	width:90%;
+	margin:0 15px;
+
+}
+.btn{
+	width:100%;
+	text-align:left !important;
+	
+}

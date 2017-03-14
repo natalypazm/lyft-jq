@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/sing-up.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	
+</head>
+<body onload="initDatos()">
+<div class="container-fluid cuerpo">
+	<a id="back" href="sing-up.html"><img class="img-responsive pull-left" width="30px" style="margin-top:15px;" src="back.png"></a>
+	<h3 style="margin-right:10%">Sign Up</h3>
+	<p>Join now for free ride credit</p>
+	<hr>
+	<label><img src="image/user.png"></label><input id="name" class="nombre" placeholder="First Name    Last Name" type="text" name="number" maxlength="30">
+	<i id="nombre-valid" class="number-valid fa fa-check" style="display: none"></i>
+    <i id="nombre-invalid" class="number-valid fa fa-times" style="display: none"></i>
+	<br><br>
+	<label><img src="image/mail.png"></label><input id="email" placeholder="Email" type="text" maxlength="50">
+	<br><br>
+	<div>
+	<span><input class="check" type="checkbox" value="" name="check" style="width:30px">I agree to Lyft´s <span style="color:skyblue">Terms of Service</span></span>
+	
+	</div>
+	<a href="mapa.html" class="next" id="next" style="display:block">Next</a>
+</div>
+	
+</body>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/sing-up-datos.js"></script>
+</html>

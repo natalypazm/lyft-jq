@@ -1,0 +1,17 @@
+.country {
+    display: inline-block;
+    
+   }
+
+#lista-paises {
+    list-style: none;
+}
+
+#lista-paises a, a:hover{
+    color: black;
+}
+
+.gris {
+    background-color: darkgray;
+    color: white;
+}

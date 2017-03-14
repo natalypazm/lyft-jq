@@ -1,0 +1,50 @@
+*{
+	/*background-color:pink;*/
+	margin:0;
+	padding:0;
+
+}
+.cuerpo{
+	background-image:url(../image/fondo1.jpg);
+	background-position:top;
+}
+.lyft{
+	margin:auto;
+	width:25%;
+}
+.titulo{
+	margin:100px 0;
+	color:white;
+	text-align:center;
+}
+button{
+	border-radius:3px;
+	border:1px solid white;
+	height:50px;
+	width:130px;
+	background:transparent;
+}
+button a{
+	color:white !important;
+	text-decoration:none;
+}
+.botones{
+
+	position: absolute;
+	bottom:15px;
+	text-align:center;
+	width:100%;
+	
+}
+button:hover{
+background: rgba(168,0,191,1);
+background: -moz-linear-gradient(left, rgba(168,0,191,1) 0%, rgba(168,0,191,1) 19%, rgba(203,96,179,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(168,0,191,1)), color-stop(19%, rgba(168,0,191,1)), color-stop(100%, rgba(203,96,179,1)));
+background: -webkit-linear-gradient(left, rgba(168,0,191,1) 0%, rgba(168,0,191,1) 19%, rgba(203,96,179,1) 100%);
+background: -o-linear-gradient(left, rgba(168,0,191,1) 0%, rgba(168,0,191,1) 19%, rgba(203,96,179,1) 100%);
+background: -ms-linear-gradient(left, rgba(168,0,191,1) 0%, rgba(168,0,191,1) 19%, rgba(203,96,179,1) 100%);
+background: linear-gradient(to right, rgba(168,0,191,1) 0%, rgba(168,0,191,1) 19%, rgba(203,96,179,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a800bf', endColorstr='#cb60b3', GradientType=1 );
+	color: white;
+}
+
